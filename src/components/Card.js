@@ -46,7 +46,7 @@ export default function Card(props) {
                 //     else if (record.PaymentMethod.toLowerCase().includes(pay.toLowerCase())){
                 //         return record
                 //     }
-                })
+                // })
                 .map((record) => {
                     return (
                         <div className="py-6 px-5 border border-purple-100 rounded-lg my-2" key={record.id}>
